@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "AwesomeProject",
+    "slug": "AwesomeProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../AwesomeProject/AwesomeProject/assets/nsgLogo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "../AwesomeProject/AwesomeProject/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../AwesomeProject/AwesomeProject/assets/nsgLogo.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "../AwesomeProject/AwesomeProject/assets/favicon.png"
+    }
+  }
+}

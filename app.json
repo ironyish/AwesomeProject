@@ -4,10 +4,10 @@
     "slug": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "../AwesomeProject/image/nsglogo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "../AwesomeProject/image/nsglogo.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ironyish.AwesomeProject"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./AwesomeProject/assets/nsgLogo.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ironyish.AwesomeProject"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "../AwesomeProject/image/nsglogo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c5af5f62-701b-4d55-8083-0ca6815bf1f4"
+      }
     }
   }
 }
